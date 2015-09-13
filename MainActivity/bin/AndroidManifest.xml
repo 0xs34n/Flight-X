@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="csc207.group0388.piii"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Flight X"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Flight X" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".Menu_Client"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".Menu_Admin"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".Search_FlightActivity"
+            android:label="Flight X" >
+
+            <!--
+                	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".Search_Flight_ResultActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".Search_ItineraryActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".Search_Itinerary_ResultActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".View_Personal_InfoActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".Edit_ClientActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".View_ClientsActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".View_FlightListActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".Upload_Flight_ListActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".Edit_FlightActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".Edit_Given_FlightActivity"
+            android:label="Flight X" >
+        </activity>
+        <activity
+            android:name=".View_Booked_ItinerariesActivity"
+            android:label="Flight X" >
+        </activity>
+    </application>
+
+</manifest>

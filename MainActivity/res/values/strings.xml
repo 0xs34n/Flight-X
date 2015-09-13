@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PIII</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Login">Login</string>
+    <string name="Username">Username</string>
+    <string name="password">Password</string>
+    <string name="Register">Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_menu__client">Menu_Client</string>
+    <string name="title_activity_menu__admin">Menu_Admin</string>
+    <string name="title_activity_search__flight">Search_FlightActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search__flight__result">Search_Flight_ResultActivity</string>
+    <string name="title_activity_search__itinerary">Search_ItineraryActivity</string>
+    <string name="title_activity_search__itinerary__result">Search_Itinerary_ResultActivity</string>
+    <string name="title_activity_sort_by__cost">Sort_by_CostActivity</string>
+    <string name="title_activity_sort_by__time">Sort_by_TimeActivity</string>
+    <string name="search_flight">Search Flight</string>
+    <string name="search_flight_result">Search Flight Result</string>
+    <string name="search_itinerary">Search Itinerary</string>
+    <string name="search_itinerary_result">Search Itinerary Result</string>
+    <string name="date">Date</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="date_itinerary">Date</string>
+    <string name="origin_itinerary">Origin</string>
+    <string name="destination_itinerary">Destination</string>
+    <string name="title_activity_persona__information">Persona_InformationActivity</string>
+    <string name="viewPersonaInformation"></string>
+    <string name="title_activity_view__personal__info">View_Personal_InfoActivity</string>
+    <string name="info"></string>
+    <string name="title_activity_view__clients">View_ClientsActivity</string>
+    <string name="view_clients">Client List</string>
+    <string name="title_activity_edit__client">Edit_ClientActivity</string>
+    <string name="editClient">Edit Client</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">E-mail</string>
+    <string name="address">Address</string>
+    <string name="creditCard">Credit Card Number</string>
+    <string name="ccExpDate">Expiry Date YYYY-MM-DD</string>
+    <string name="title_activity_upload__client__info">Upload_Client_InfoActivity</string>
+    <string name="title_activity_view__flight_list">View_FlightListActivity</string>
+    <string name="title_activity_upload__flight__list">Upload_Flight_ListActivity</string>
+    <string name="title_activity_edit__flight">Edit_FlightActivity</string>
+    <string name="flightNum">Flight Number</string>
+    <string name="departDateTime">Departure Date Time YYYY-MM-DD HH:MM</string>
+    <string name="arrivalDateTime">Arrival Date Time YYYY-MM-DD HH:MM</string>
+    <string name="price">Price</string>
+    <string name="airline">Airline</string>
+    <string name="title_activity_edit__given__flight">Edit_Given_FlightActivity</string>
+    <string name="title_activity_view__booked__itineraries">View_Booked_ItinerariesActivity</string>
+    <string name="fileName">Name of file</string>
+    <string name="client_file">Client File</string>
+    <string name="flight_file">Flight File</string>
+    <string name="numSeats">Number of Seats</string>
+    <string name="password_file">Password File</string>
+
+</resources>

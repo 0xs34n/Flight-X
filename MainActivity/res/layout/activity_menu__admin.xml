@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textAdminView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Please select from the following options:" />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="logOut"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/viewClientList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/viewPersonalInfo"
+        android:layout_marginTop="44dp"
+        android:onClick="viewClientList"
+        android:text="Edit Clients" />
+
+    <Button
+        android:id="@+id/viewBookedItineraries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/viewPersonalInfo"
+        android:onClick="viewBookedItineraries"
+        android:text="View Booked Itineraries" />
+
+    <Button
+        android:id="@+id/viewPersonalInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        
+        android:layout_below="@+id/searchItineraries"
+        android:onClick="viewPersonalInfo"
+        android:text="View Personal Info" />
+
+    <Button
+        android:id="@+id/editFlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/viewClientList"
+        android:onClick="editFlight"
+        android:text="Edit Flights" />
+
+    <Button
+        android:id="@+id/uploadFlightList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/viewClientList"
+        android:layout_below="@+id/editFlight"
+        android:onClick="uploadFlightList"
+        android:text="Upload File" />
+
+    <Button
+        android:id="@+id/searchFlights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="22dp"
+        android:onClick="searchFlights"
+        android:text="Search Flight" />
+
+    <Button
+        android:id="@+id/searchItineraries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/searchFlights"
+        android:onClick="searchItineraries"
+        android:text="Search Itinerary" />
+
+</RelativeLayout>

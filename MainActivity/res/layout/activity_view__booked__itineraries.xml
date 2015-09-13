@@ -1,0 +1,40 @@
+<LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="home"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/searchItinerariesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="keepBooking"
+            android:text="Book Flights" />
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/booked_itineraries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9" >
+    </ListView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+
+<LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+  <LinearLayout 
+    android:layout_width="match_parent"
+  	android:layout_height="match_parent"	
+    android:orientation="vertical"
+    android:id = "@+id/linear_main">
+	
+    <TextView
+        android:id="@+id/textRegisterView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Please fill in the information below:" />
+   	<EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/lastName" />
+   	<requestFocus/>
+
+	 <EditText
+	     android:id="@+id/firstName"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1"
+	     android:ems="10"
+	     android:hint="@string/firstName" />
+
+	 <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+	 <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/address" />
+	 
+	 
+	 <EditText
+        android:id="@+id/creditCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:layout_weight="1"
+        android:hint="@string/creditCard" />
+  
+    <EditText
+        android:id="@+id/ccExpDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/ccExpDate" />
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+    
+
+     <Button
+         android:id="@+id/signUp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:onClick="registerUser"
+         android:text="Sign Up" />
+
+     <Button
+         android:id="@+id/cancel"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:onClick="cancel"
+         android:text="Cancel" />
+   </LinearLayout>
+  </ScrollView>
+</LinearLayout>

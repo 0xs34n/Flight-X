@@ -1,0 +1,43 @@
+<LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+       
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sortByCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sortByCost"
+            android:text="Sort By Cost" />
+
+        <Button
+            android:id="@+id/sortByTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="sortByTime"
+            android:text="Sort by Time" />
+    </LinearLayout>
+     <ListView
+        android:id="@+id/list_itinerary_flight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8" >
+    </ListView>
+    <Button
+            android:id="@+id/home"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="home"
+            android:text="Home" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textUploadView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please give the name of file you want to upload in folder:
+				app_userdate" />
+
+    <RadioGroup
+        android:id="@+id/file_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="26dp" >
+        
+    <RadioButton
+        android:id="@+id/client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/file_field"
+        android:layout_marginTop="66dp"
+        android:checked="true"
+        android:text="@string/client_file" />
+
+    <RadioButton
+        android:id="@+id/flight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/client"
+        android:layout_below="@+id/client"
+        android:text="@string/flight_file" />
+    
+    <RadioButton
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/client"
+        android:layout_below="@+id/filght"
+        android:text="@string/password_file" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/fileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/file_field"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="@string/fileName" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="56dp"
+        android:onClick="upload"
+        android:text="UPLOAD" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="home"
+        android:text="Home" />
+
+</RelativeLayout>

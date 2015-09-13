@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/editClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editClient" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editClient"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/firstName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editFirstName"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/lastName"
+        android:inputType="textPersonName" />
+
+    <requestFocus />
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/address" />
+
+    <EditText
+        android:id="@+id/editCreditCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editAddress"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/creditCard" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editLastName"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editExpiryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editCreditCard"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/ccExpDate" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:onClick="submitInfo"
+        android:text="Submit" />
+
+</RelativeLayout>
